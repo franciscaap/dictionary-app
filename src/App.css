@@ -1,10 +1,23 @@
 .App {
   text-align: center;
 }
-
+.App-header {
+  margin-top: 160px;
+}
 .App-logo {
   font-size: 100px;
   font-family: "Monoton", sans-serif;
   color: rgb(31, 31, 31);
   opacity: 80%;
+}
+
+.App footer {
+  color: #958d8d;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.App a {
+  text-decoration: none;
+  color: rgb(31, 31, 31);
 }
