@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  width: 800px;
+  display: block;
+  margin: 60px auto;
 }
 .App-header {
   margin-top: 160px;
@@ -15,6 +17,7 @@
   color: #958d8d;
   font-size: 14px;
   margin-top: 30px;
+  text-align: center;
 }
 
 .App a {
