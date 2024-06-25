@@ -20,7 +20,10 @@
   text-align: center;
 }
 
-.App a {
+.App footer a {
   text-decoration: none;
+}
+
+.App a {
   color: rgb(31, 31, 31);
 }
