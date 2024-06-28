@@ -1,29 +1,29 @@
+:root {
+  --text-color: rgba(31, 31, 31, 0.75);
+}
+
 .App {
-  width: 800px;
-  display: block;
-  margin: 60px auto;
+  margin: 60px 0 60px;
 }
-.App-header {
-  margin-top: 160px;
+body {
+  background-color: #efb6a52d;
+  color: var(--text-color);
 }
+
 .App-logo {
   font-size: 100px;
   font-family: "Monoton", sans-serif;
-  color: rgb(31, 31, 31);
-  opacity: 80%;
+  color: var(--text-color);
 }
 
 .App footer {
-  color: #958d8d;
+  color: #8b8b8b;
   font-size: 14px;
-  margin-top: 30px;
+  margin: 30px 0 30px;
   text-align: center;
 }
 
 .App footer a {
   text-decoration: none;
-}
-
-.App a {
   color: rgb(31, 31, 31);
 }

@@ -26,11 +26,20 @@ export default function Dictionary() {
   }
 
   return (
-    <div>
-      <form onSubmit={search} className="mt-4 text-center">
-        <input type="search" onChange={updateSearch} />
-        <input type="submit" value="Search" className="ms-2" />
-      </form>
+    <div className="Dictionary">
+      <section>
+        <h1>What word do you want to look up? </h1>
+        <form onSubmit={search} className="text-center">
+          <input
+            type="search"
+            placeholder="Search for a word"
+            onChange={updateSearch}
+            className="search-input"
+          />
+        </form>
+        <p>i.e. computer, coagulate, london, coding</p>
+      </section>
+
       <Results results={results} />
     </div>
   );

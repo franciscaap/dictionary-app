@@ -1,0 +1,14 @@
+.Phonetic {
+  margin-top: 15px;
+}
+.Phonetic h4 {
+  font-size: 20px;
+  opacity: 80%;
+  font-weight: bold;
+}
+
+@media (max-width: 520px) {
+  .Phonetic {
+    text-align: center;
+  }
+}

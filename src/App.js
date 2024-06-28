@@ -1,28 +1,29 @@
 import "./App.css";
-import Dictiionary from "./Dictionary";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="text-center">
-          <a
-            className="App-logo text-decoration-none"
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            F P
-          </a>
-        </div>
+      <div className="container">
+        <header className="App-header">
+          <div className="text-center">
+            <a
+              className="App-logo text-decoration-none"
+              href="/"
+              rel="noopener noreferrer"
+            >
+              F P
+            </a>
+          </div>
 
-        <Dictiionary />
-      </header>
+          <Dictionary />
+        </header>
 
-      <footer>
-        Coded by <a href="/">Francisca Agyekum Poku</a>, code hosted on{" "}
-        <a href="/">GitHub</a> and website hosted on <a href="/">Netlify.</a>
-      </footer>
+        <footer>
+          Coded by <a href="/">Francisca Agyekum Poku</a>, code hosted on{" "}
+          <a href="/">GitHub</a> and website hosted on <a href="/">Netlify.</a>
+        </footer>
+      </div>
     </div>
   );
 }
