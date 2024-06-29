@@ -14,7 +14,6 @@ export default function Dictionary() {
   }
 
   function searchPhotos(response) {
-    console.log(response);
     setPhotos(response.data.photos);
   }
 
